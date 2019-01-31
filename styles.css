@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+ * {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: 300;
+     line-height: 1.5em;
+}
+ h1, h2, h3, h4, h5 {
+     font-family: monospace;
+}
+ h1 {
+     font-size: 3rem;
+     font-weight: 200;
+}
+ h2 {
+     font-size: 2.25rem;
+     font-weight: 600;
+}
+ h3 {
+     font-size: 1.25rem;
+     font-weight: 800;
+}
+/* NAVBAR */
+ nav {
+     background-color: red;
+     color: rgba(255,255,255,0.8);
+     padding: 10px 10px;
+}
+ nav a {
+     color: rgba(255,255,255,0.8);
+     text-decoration: none;
+}
+ .top-left {
+     display: inline-block;
+     margin-left: 20px;
+}
+ .heart {
+     padding-right: 15px;
+}
+ .top-links {
+     display: inline-block;
+     float: right;
+     padding: 0;
+     margin: 0 20px 0 0;
+     list-style-type: none;
+}
+ .top-links li {
+     display: inline-block;
+     margin: 0 10px;
+}
+/* HEADER */
+ header {
+     background-image: url('./images/city-scape.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 350px;
+     color: white;
+}
+ .header-top {
+     display: inline-block;
+     padding: 15px;
+     height: 40px;
+}
+ .logo {
+     float: left;
+     display: inline-block;
+     padding-right: 20px;
+}
+ .search-container {
+     float: left;
+     display: inline-block;
+}
+ .search-container input {
+     width: 850px;
+     height: 40px;
+     padding: 20px;
+     float: left;
+     background-color: rgb(31, 82, 111);
+     border: 1px solid grey;
+}
+ .search-container button {
+     float: left;
+     display: inline-block;
+     font-size: 20px;
+     width: 50px;
+     height: 42px;
+     background-color: rgb(31, 82, 111);
+     border: 1px solid grey;
+     color: white;
+     cursor: pointer;
+}
+ .header-top p a{
+     display: inline-block;
+     float: left;
+     text-decoration: none;
+     color: white;
+     margin-left: 20px;
+     margin-top: 8px;
+}
+ .bear {
+     display: inline-block;
+     float: left;
+     margin-left: 5px;
+}
+ .main-header {
+     width: 850px;
+     margin: 0 auto;
+     padding-top: 20px;
+}
+ .main-header p{
+     padding-top: 15px;
+     font-size: 1em;
+}
+ .main-header button{
+     margin-top: 30px;
+     background-color: orange;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 32px;
+     border-style: none;
+}
+/* COLLABORATION SECTION */
+ .collaboration {
+     background-color: rgb(39, 53, 71);
+     color: white;
+     height: 400px;
+}
+ .container {
+     width: 850px;
+     margin: 0 auto;
+     padding-top: 75px;
+}
+ .info {
+     float: right;
+}
+ .info ul li {
+     line-height: 2.2;
+}
+ .info button {
+     margin-top: 15px;
+     background-color: rgb(203, 56, 55);
+     border-style: none;
+     border-radius: 40px;
+     padding: 10px 20px;
+     color: white;
+     font-size: 15px;
+}
+ .info p {
+     margin-top: 5px;
+}
+ .info p a {
+     text-decoration: none;
+     color: white;
+}
+/* INSTALL SECTION */
+ .relative {
+     background-image: url('./images/forklift.svg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 350px;
+     position: relative;
+}
+ .absolute-container {
+     width: 850px;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     position: absolute;
+     color: white;
+     padding-top: 75px;
+}
+ .absolute-container p {
+     margin-top: 10px;
+}
+ .absolute-container button {
+     margin-top: 10px;
+     background-color: rgb(49, 68, 88);
+     border-style: none;
+     color: white;
+     border-radius: 40px;
+     padding: 10px 20px;
+     font-size: 15px;
+}
+/* LAST SECTION */
+ .last {
+     background-color: white;
+     height: 380px;
+}
+ .blocks-container {
+     width: 75%;
+     margin: 0 auto;
+}
+ .blocks {
+     margin-top: 40px;
+}
+ .blocks h2 {
+     text-align: center;
+     color: rgb(83, 88, 98);
+}
+ .blocks p{
+     text-align: center;
+     color: rgb(135, 145, 156);
+     margin-top: 20px;
+     font-size: 1.1em;
+}
+ .center {
+     margin-top: 20px;
+}
+ .col {
+     width: 32%;
+     float: left;
+     text-align: center;
+}
+ .col a {
+     text-decoration: none;
+     color: rgb(208, 74, 73);
+}
+ .col p {
+     color: rgb(135, 145, 156);
+}
+ .col-middle {
+     margin: 0 5px 0 5px;
+}
+ 
